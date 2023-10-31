@@ -1,27 +1,28 @@
-# React + TypeScript + Vite
+<!--
+ * @Author: growydp
+ * @Date: 2023-10-27 10:21:57
+ * @Description: 
+-->
+# w-music
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## router
 
-Currently, two official plugins are available:
+- 发现音乐
+  - 个性推荐
+  - 歌单
+  - 排行榜
+  - 歌手
+  - 最新音乐
+- 播客
+- 私人漫游
+- 视频
+  - 视频
+  - MV
+- 关注
+- 我喜欢的音乐
+- 下载管理
+- 最近播放
+- 创建的歌单
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- 歌手
+- 用户
