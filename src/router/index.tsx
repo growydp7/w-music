@@ -12,6 +12,8 @@ import Recommend from "../pages/DiscoveringMusic/Recommend";
 import ErrorPage from '../pages/Error'
 import SongSheet from "../pages/DiscoveringMusic/SongSheet";
 import Homepage from '../pages/User/Homepage'
+import Dynamics from "../pages/User/Dynamics";
+import Follows from "../pages/User/Follows";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +37,14 @@ const router = createBrowserRouter([
         children: [{
           path: 'homepage',
           element: <Homepage />
+        },
+        {
+          path: 'dynamics',
+          element: <Dynamics />
+        },
+        {
+          path: 'follows',
+          element: <Follows />
         }]
       }
     ]

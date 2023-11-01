@@ -1,4 +1,4 @@
-.level {
+.level, .desc {
   border-radius: 20px;
   background-color: #f0f0f0;
   color: #333333;
@@ -9,4 +9,15 @@
   vertical-align: top;
   margin-left: 5px;
   display: inline-block;
+}
+
+.desc {
+  background-color: #fde4e2;
+  color: #f04b3f;
+  padding-left: 0;
+  display: flex;
+  img {
+    height: 17px;
+    margin-right: 5px;
+  }
 }
